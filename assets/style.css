@@ -28,7 +28,21 @@ body{
     top: 56px;
     z-index: 1020;
   }
+  .row-post-download{
+      margin-top: 75px;
+      background-color: #f2ede8;
+      min-height: 500px;
+
+  }
   #index-info-1{
       padding-top: 56px;
+  }
+  #div-post{
+      padding-top:5%;
+      padding-left: 20%;
+  }
+  #div-downloads{
+    padding-top:5%;
+    padding-right: 20%;
   }
 
