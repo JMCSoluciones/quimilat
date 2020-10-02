@@ -4,6 +4,24 @@ body{
 .container-fluid{
     height: 250px;
 }
+.col-link{
+    margin: 10px 0;
+    overflow: hidden;
+     /* box-shadow: 1px 1px 0px rgba(0,0,0,0.148);  */
+}
+
+.col-link img{
+    transition:  0.3s;
+}
+
+.col-link img:hover{
+    transform: scale(1.09);
+    background-color:black; 
+    opacity:1;
+    filter:alpha(opacity=100)
+}
+
+
 .sticky-top-2 {
     position: -webkit-sticky;
     position: sticky;
@@ -13,3 +31,4 @@ body{
   #index-info-1{
       padding-top: 56px;
   }
+
