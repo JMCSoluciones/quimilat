@@ -1,3 +1,15 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
+}
 .container-fluid{
     height: 250px;
 }
+.sticky-top-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 56px;
+    z-index: 1020;
+  }
+  #index-info-1{
+      padding-top: 56px;
+  }
