@@ -45,4 +45,23 @@ body{
     padding-top:5%;
     padding-right: 20%;
   }
+  footer{
+      min-height: 350px;
+      background-color: #343a40;
+      padding-top: 30px;
+  }
+  footer a{
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: lighter;
+      transition: .1s;
+  }
+
+  footer a:hover{
+      color: #343a40;
+      background-color: #ffffff;
+      text-decoration: none;
+      padding: 0px 2px;
+      font-weight: normal;
+  }
 
