@@ -17,22 +17,46 @@ body{
 .col-link img:hover{
     transform: scale(1.09);
     background-color:black; 
-    opacity:1;
+    opacity:.7;
     filter:alpha(opacity=100)
 }
 
-
-.sticky-top-2 {
+.sticky-top {
+    opacity: .9; 
+  }
+.sticky-top-2{
     position: -webkit-sticky;
     position: sticky;
     top: 56px;
     z-index: 1020;
+    opacity: .9;  
+  }
+  .sticky-top-2 ul{
+      padding-left:20%;
   }
   .row-post-download{
       margin-top: 75px;
       background-color: #f2ede8;
       min-height: 500px;
 
+  }
+  .image-page{
+     
+      background-image: url('../assets/images/nosotros-1920x600.png');
+        /* Full height */
+        /* background-attachment: fixed; */
+        height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .title-img{
+      color:white;
+      left:20%;
+      padding-top: 25%;
+     
   }
   #index-info-1{
       padding-top: 56px;
