@@ -1,6 +1,14 @@
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
 }
+.card{
+    border: 0px;
+}
+.card-body{
+    padding: 5%;
+    color: #95a5a6;
+    line-height: 2em;
+}
 .container-fluid{
     height: 250px;
 }
@@ -66,6 +74,42 @@ body{
     margin: auto;
     text-align: left;
 }
+.nosotros{
+    background: url(/assets/images/imageNosotrosContraste_Quimilat_1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding: 7% 22%;
+    margin-top: 75px;
+
+}
+.nosotros p{
+    text-align: center;
+    background-color: #36a15a;
+    color: white;
+    padding: 10% 5%;
+    opacity: .9;
+    /* border-radius: 40px 0px 40px 0; */
+    
+}
+.mision-vision{
+    text-align: center;
+    line-height: 1.9em;
+    color: #ffffff;
+    font-weight: 400;
+}
+.row-mision-vision{
+    margin: 75px 0;
+    background-color: #36a15a;
+    padding: 30px;
+    border-radius: 40px 0px 40px 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.70);
+
+    
+
+}
 /* .col-link{
     margin: 10px 0;
     overflow: hidden;
@@ -120,6 +164,16 @@ body{
       left:20%;
       padding-top: 25%;
      
+  }
+  #accordionNosotros{
+      margin-bottom: 75px;
+  }
+  #headingHistoria,#headingFortalezas,#headingValores{
+      background-color: white;
+  }
+  #headingHistoria button,#headingFortalezas button,#headingValores button{
+      color: #36a15a;
+      font-size: 1em;
   }
   #index-info-1{
       padding-top: 56px;
