@@ -159,12 +159,72 @@ body{
     background-size: cover;
   
   }
+  .image-page-refinacion{
+    background-image: url('../assets/images/refinacion.png');
+    /* Full height */
+    /* background-attachment: fixed; */
+    height: 100%; 
+/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-page-petroleo{
+    background-image: url('../assets/images/AdobeStock_212107669.jpeg');
+    /* Full height */
+    /* background-attachment: fixed; */
+    height: 100%; 
+/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-page-industriales{
+    background-image: url('../assets/images/about-image.png');
+    /* Full height */
+    /* background-attachment: fixed; */
+    height: 100%; 
+/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-page-laboratorio{
+    background-image: url('../assets/images/laboratory.png');
+    /* Full height */
+    /* background-attachment: fixed; */
+    height: 100%; 
+/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .title-img{
       color:white;
-      left:20%;
+      
       padding-top: 25%;
      
   }
+  .title-img-refinacion{
+      color: #2ecc71;
+      padding: 10%;
+      background-color: #222;
+      opacity: .7;
+  }
+  .title-img-petroleo{
+    color: #fff;
+    padding: 10%;
+  }
+  .title-img-industriales{
+      padding: 10%;
+      color: #fff;
+  }
+  .title-img-laboratorio{
+    padding: 10%;
+    color: #fff;
+}
+
   #accordionNosotros{
       margin-bottom: 75px;
   }
