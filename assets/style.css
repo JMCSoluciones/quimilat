@@ -1,5 +1,6 @@
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
+    color: #95a5a6;
 }
 .card{
     border: 0px;
@@ -139,6 +140,13 @@ body{
   }
   .sticky-top-2 ul{
       padding-left:20%;
+  }
+  .title-index{
+      margin: 75px;
+      text-align: center;
+      color: #95a5a6;
+      border: 2px solid #95a5a6;
+      border-radius: 20px;
   }
   .row-post-download{
       margin-top: 75px;
