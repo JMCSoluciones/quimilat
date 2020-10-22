@@ -142,6 +142,7 @@ body{
       padding-left:20%;
   }
   .title-index{
+      font-family: Arial, Helvetica, sans-serif;
       margin: 75px;
       text-align: center;
       color: #95a5a6;
@@ -254,6 +255,103 @@ body{
     padding-top:5%;
     padding-right: 20%;
   }
+  .carousel-caption{
+      bottom: 100px;
+  }
+  .div-slide1-text{
+    border-left: 4px solid #fff;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+  }
+  .slide1-text1{
+      text-align: left;
+      font-size: 3em;
+      font-weight: 300;
+      background-color: #36a15a;
+      width: 500px;
+
+  }
+  .slide1-text2{
+    font-size: 4em;
+    text-align: left;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #222;
+}
+.div-slide2-text{
+    text-align: center;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+  }
+  .slide2-text1{
+      font-size: 3em;
+      font-weight: 300;
+      border: 3px solid #36a15a;
+      border-radius: 20px;
+      text-shadow: 2px 2px 2px #222;
+
+  }
+  .slide2-text2{
+      line-height: 1em;
+      font-size: 3.5em;
+      text-shadow: 2px 2px 2px #222;
+  }
+  .slide2-text2 strong{
+    line-height: 1em;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #222;
+}
+.div-slide3-text{
+    text-align: center;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    line-height: 1em;
+
+  }
+  .slide3-text1{
+      font-size: 3em;
+      font-weight: 300;
+      border-radius: 20px;
+      text-shadow: 2px 2px 2px #222;
+
+  }
+  .slide3-text2{
+      line-height: 1.8em;
+      font-size: 3.5em;
+    
+  }
+  .slide3-text2 strong{
+    font-size: 1.3em;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #222;
+}
+.div-slide4-text{
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    line-height: 1em;
+
+  }
+  .slide4-text1{
+      font-size: 3em;
+      font-weight: 300;
+      border-radius: 20px;
+      text-shadow: 2px 2px 2px #222;
+
+  }
+  .slide4-text2{
+      line-height: 1.8em;
+      font-size: 3.5em;
+    
+  }
+  .slide4-text2 strong{
+    font-size: 1.3em;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #222;
+}
+
   footer{
       min-height: 350px;
       background-color: #343a40;
