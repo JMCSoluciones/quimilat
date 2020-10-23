@@ -178,6 +178,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .image-page-sustentabilidad{
+    background-image: url('../assets/images/portada-sustentabilidad.png');
+    /* Full height */
+    /* background-attachment: fixed; */
+    height: 100%; 
+/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .image-page-petroleo{
     background-image: url('../assets/images/AdobeStock_212107669.jpeg');
     /* Full height */
@@ -218,9 +228,19 @@ body{
   .title-img-refinacion{
       color: #2ecc71;
       padding: 10%;
-      background-color: #222;
-      opacity: .7;
+      text-shadow: 2px 2px 2px #576574;
   }
+  .title-img-sustentabilidad{
+      padding: 10%;
+      color: #ffffff;
+      text-shadow: 2px 2px 2px #222;
+  }
+  .title-img-refinacion strong{
+    color: #2ecc71;
+    text-shadow: 2px 2px 2px #576574;
+    background-color: #fff;
+    opacity: .8;
+}
   .title-img-petroleo{
     color: #fff;
     padding: 10%;
@@ -232,6 +252,18 @@ body{
   .title-img-laboratorio{
     padding: 10%;
     color: #fff;
+}
+.row-sustentabilidad{
+    margin-top: 100px;
+    text-align: justify;
+    
+}
+.row-sustantibilidad-title{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 30px;
+    vertical-align: center;
 }
 
   #accordionNosotros{
