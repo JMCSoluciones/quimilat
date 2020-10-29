@@ -376,6 +376,8 @@ body{
   .slide4-text2{
       line-height: 1.8em;
       font-size: 3.5em;
+    text-shadow: 2px 2px 2px #222;
+
     
   }
   .slide4-text2 strong{
