@@ -1,16 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <!-- JS, Popper.js, and jQuery -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- CSS only -->
-     <link rel="stylesheet" href="assets/css/bootstrap.css">
-     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
-     <link rel="stylesheet" href="assets/style.css">
-     <!-- JS, Popper.js, and jQuery -->
-     <title>Quimilat S.A. DE C.V.</title>
+    <title>Quimilat S.A. DE C.V.</title>
 </head>
 <body>
-    
+  
+      <nav class="navbar navbar-dark bg-dark sticky-top">
+        <span class="navbar-text">
+          Bienvenido a QUIMILAT S.A de C.V.
+        </span>
+        <ul class="nav justify-content-end">
+          <li><a href=""><img src="assets/images/pngwing.png" alt="English" width="30px" height="auto"></a></li>
+        </ul>
+      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top-2" >
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.svg" alt="" width="120px" class="logo-img-header">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    NOSOTROS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="nosotros.html">QUIENES SOMOS</a>
+                    <a class="dropdown-item" href="#">HISTORIA</a>
+                    <a class="dropdown-item" href="nosotros.html#accordionExample-in">VALORES</a>
+                    <a class="dropdown-item" href="#">FORTALEZAS</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      PORTAFOLIO
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="portafolio-petroleo.html">PETRÓLEO</a>
+                      <a class="dropdown-item" href="portafolio-refinacion.html">REFINACIÓN Y PETROQUÍMICA</a>
+                      <a class="dropdown-item" href="portafolio-laboratorios.html">SERVICIOS DE LABORATORIOS</a>
+                      <a class="dropdown-item" href="portafolio-industriales.html">SERVICIOS INDUSTRIALES</a>
+
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="infraestructura.html">OPERACIONES E INFRAESTRUCTURA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sustentabilidad.html">SUSTENTABILIDAD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTÁCTO</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <!-- FIN DEL HEADER -->
+
+        <section class="formulario">
+            <form action="" method="post">
+                <label for="i-nombre">Nombre</label>
+                <input type="text" name="i-nombre" id="" placeholder="Ingrese su nombre">
+                <label for="i-email">Email</label>
+                <input type="email" name="i-email" id="" placeholder="Ingrese su email">
+                <label for="i-telefono">Teléfono</label>
+                <input type="phone" name="i-telefono" id="" placeholder="Ingrese su telefono">
+                <label for="i-departamento">Departamento</label>
+                <select name="i-departamento" id="">
+                    <option value="sin_eleccion">Elija un departamento</option>
+                    <option value="ventas">Ventas</option>
+                    <option value="proyectos">Proyectos</option>
+                    <option value="servicios">Servicio</option>
+                    <option value="soporte">Soporte</option>
+                </select>
+                   
+                <label for="i-asunto">Asunto</label>
+                <input type="text" name="i-asunto" id="" placeholder="Asunto">
+                <label for="i-mensaje">Mensaje</label>
+                <textarea name="i-mensaje" id=""  rows="10" placeholder="Ingrese su mensaje"></textarea>
+                <input type="submit" value="Enviar" class="btn btn-warning cta">
+
+            </form>
+        </section>
+              
+<!-- INICIO FOOTER  -->
+          <div class="row row-post-download" style="padding: 30px 0 30px 0;">
+            <!-- columna de post -->
+            <div class="col-sm" style="border-right: 2px solid #28a745;"> 
+              <div id="div-post">
+                
+                <ul style="list-style: none;">
+                  <p class="font-weight-bold">ÚLTIMAS NOTICIAS</p>
+                  <li>
+                      <div class="row">
+                        <div class="col" style="max-width: 100px;">
+                          <img src="assets/images/post-img-125x125.png" alt="Thumbnail" style="max-width: 80px;">
+                        </div>
+                        <div class="col" style="padding-right: 10%;">
+                          <a href="" style="font-size: 1em; text-decoration: none; color: black;" class="font-weight-light" >Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </a>
+                          <hr style="margin-top: .5em; margin-bottom: .5em;">
+                          <p style="color: gray; font-size: .8em;">02/10/2020</p>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col" style="max-width: 100px;">
+                        <img src="assets/images/post-img-125x125.png" alt="Thumbnail" style="max-width: 80px;">
+                      </div>
+                      <div class="col" style="padding-right: 10%;">
+                        <a href="" style="font-size: 1em; text-decoration: none; color: black;" class="font-weight-light" >Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </a>
+                        <hr style="margin-top: .5em; margin-bottom: .5em;">
+                        <p style="color: gray; font-size: .8em;">02/10/2020</p>
+                      </div>
+                    </div>
+                </li>
+                  <li>
+                    <div class="row">
+                      <div class="col" style="max-width: 100px;">
+                        <img src="assets/images/post-img-125x125.png" alt="Thumbnail" style="max-width: 80px;">
+                      </div>
+                      <div class="col" style="padding-right: 10%;">
+                        <a href="" style="font-size: 1em; text-decoration: none; color: black;" class="font-weight-light" >Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </a>
+                        <hr style="margin-top: .5em; margin-bottom: .5em;">
+                        <p style="color: gray; font-size: .8em;">02/10/2020</p>
+                      </div>
+                    </div>
+                </li>
+                </ul>
+              </div>
+            </div> 
+            <!-- fin columna de post -->
+            <div class="col-sm"> 
+              <div id="div-downloads">
+                <ul style="list-style: none;">
+                <p class="font-weight-bold">DESCARGAS</p>
+
+                  <li>
+                      <div class="row">
+                        <div class="col" style="max-width: 100px;">
+                          <img src="assets/images/post-img-125x125.png" alt="Thumbnail" style="max-width: 80px;">
+                        </div>
+                        <div class="col" style="padding-right: 10%;">
+                          <a href="" style="font-size: 1.5em; text-decoration: none; color: black;" class="font-weight-light" >Leading the World in Moly Brochure</a>
+                          
+                          
+                        </div>
+                      </div>
+                  </li>
+                 
+                </li>
+               
+              </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <ul class="nav flex-column">
+                  <li><a href="">Quienes Somos</a></li>
+                  <li><a href="">Historia</a></li>
+                  <li><a href="">Valores</a></li>
+                  <li><a href="">Fortalezas</a></li>
+                </ul></div>
+                <div class="col-sm">
+                  <ul class="nav flex-column">
+                    <li><a href="">Procesos Petroquimicos</a></li>
+                    <li><a href="">Producción</a></li>
+                    <li><a href="">Servicios Industriales</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm">
+                  <ul class="nav flex-column">
+                    <li><a href="">Oficinas en Cd. de México</a></li>
+                    <li><a href="">Oficians en Cd. del Carmen</a></li>
+                    <li><a href="">Laboratorio Fijo</a></li>
+                    <li><a href="">Laboratorio Móvil</a></li>
+                    <li><a href="">Sistemas de Inyección</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm">
+                  <ul class="nav flex-column">
+                    <li><a href="">Sustentabilidad Integral de Gestión</a></li>
+                    <li><a href="">Pólitica de Calidad</a></li>
+                    <li><a href="">Politica de salud, seguridad y medio ambiente</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="col-sm">
+                  <ul class="nav flex-column">
+                    <li><a href="">Contácto</a></li>
+                    <li><a href="">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+               
+                  <img src="assets/images/logo-prueba.svg" alt="" class="logo-img-footer">
+                
+              </div>
+              
+            </div>
+
+          </footer>                   
 </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+    <script src="assets/js/bootstrap.js"></script>
 </html>
+
+<!-- FIN DEL FOOTER -->
